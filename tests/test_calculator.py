@@ -11,3 +11,4 @@ def test_calculator_add():
 def test_calculator_negative_add():
     a_calc = calc.Calculator()
     assert a_calc.add(-1,-1) == -2
+    
